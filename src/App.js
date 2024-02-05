@@ -136,7 +136,7 @@ function App() {
                 }
             });
         };
-    }, []);
+    });
 
     function onClickHandler(itemName) {
         setSelected(itemName);

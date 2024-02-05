@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Typography from "@mui/material/Typography";
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 
 const ExperienceCard = ({ title, date, company, map}) => {
