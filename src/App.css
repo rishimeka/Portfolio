@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.project-card {
+  background: #121017;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-date {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.project-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.project-category {
+  font-size: 16px;
+  color: #ddd;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid columns */
+  grid-auto-rows: 1fr; /* Each row takes equal height */
+  gap: 20px; /* Space between cards */
+  padding: 20px; /* Padding around the grid */
+}
